@@ -157,7 +157,7 @@ ul {
 .theme-dot {
     height: 30px;
     width: 30px;
-    background-color:red;
+    background-color: black;
     border-radius: 50%;
 
     margin: 5px;
@@ -168,10 +168,33 @@ ul {
     box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.75);
 
     cursor: pointer;
-
 }
 
+.theme-dot:hover {
+    border-width: 5px;
+}
 
+#light-mode {
+    background-color: #fff;
+}
+
+#blue-mode {
+    background-color: #192734;
+}
+
+#green-mode {
+    background-color: #78846b;
+}
+
+#purple-mode {
+    background-color: #7e4c74;
+}
+
+#settings-note {
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
 
 .right-column {
     grid-area: right-column;
